@@ -1,0 +1,95 @@
+{
+  "workbench.sideBar.location": "right", // 侧边栏位置
+  "workbench.activityBar.location": "top", // 活动栏位置
+  "workbench.iconTheme": "pop-icon-theme", // 图标主题
+  "workbench.colorTheme": "Evondev Dracula Author", // 颜色主题
+  "workbench.colorCustomizations": {
+    "list.inactiveSelectionBackground": "#454d66"
+  },
+  "workbench.editor.showTabs": "multiple", // 标签页展示 隐藏 单个 多个
+  "workbench.editor.tabActionLocation": "left", // 标签页关闭按扭 取消固定的位置
+  // "workbench.fontAliasing": "antialiased", // 字体抗锯齿
+  "workbench.list.smoothScrolling": true, // 列表滚动效果
+  // "workbench.productIconTheme": "icons-carbon", // 产品图标主题
+  // "workbench.startupEditor": "newUntitledFile", // 启动时打开文件
+  "workbench.tree.expandMode": "singleClick", // 树形结构单击展开
+  "workbench.tree.indent": 10, // 树形结构缩进
+  "editor.fontFamily": "OperatorMono Nerd Font, Monaco, 'Courier New', monospace", // 字体
+  "editor.fontSize": 14, // 字体大小
+  "editor.tabSize": 2, // 制表符缩进
+  "editor.guides.bracketPairs": true, // 启用括号对参考线
+  "editor.minimap.enabled": false, // 禁用小地图
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 指定代码格式化工具
+  // "editor.formatOnSave": true, // 保存时自动格式化
+  "editor.accessibilitySupport": "off", // 关闭辅助功能
+  "editor.cursorSmoothCaretAnimation": "off", // 光标平滑动画
+  "editor.lineNumbers": "interval", // 行号显示方式
+  "editor.renderWhitespace": "boundary", // 显示空白字符
+  "editor.multiCursorModifier": "ctrlCmd", // 多光标修饰键
+  // "editor.inlineSuggest.enabled": true, // 启用内联建议
+  // "diffEditor.ignoreTrimWhitespace": false, // 忽略空白字符
+  // "debug.onTaskErrors": "debugAnyway", // 调试任务失败时是否继续调试
+  // "window.autoDetectColorScheme": true, // 自动切换颜色主题
+  "files.autoSave": "onFocusChange", // 自动保存
+  "explorer.compactFolders": false, // 收起文件夹
+  "editor.suggestSelection": "first", // 自动选择建议
+  // "editor.unicodeHighlight.invisibleCharacters": false, // 隐藏无效字符
+  "editor.stickyScroll.enabled": true, // 在编辑器顶部的滚动过程中显示嵌套的当前作用域。
+  // "editor.codeActionsOnSave": {  // 保存时自动执行代码操作
+  //   "source.fixAll": "never", // 禁用自动修复
+  //   "source.fixAll.eslint": "explicit", // 仅修复 eslint 错误
+  //   "source.organizeImports": "never" // 禁用自动导入排序
+  // },
+  // "editor.hover.sticky": true,
+  // "explorer.confirmDelete": false, // 删除确认弹框
+  "explorer.confirmDragAndDrop": false, // 拖拽确认弹框
+  // "files.eol": "\n", // 换行符
+  "files.insertFinalNewline": true, // 末尾插入空行
+  "files.simpleDialog.enable": true, // 打开文件/文件夹对话框
+  "git.autofetch": true, // 自动拉取
+  "git.confirmSync": false, // git同步确认弹框
+  "git.enableSmartCommit": true, // 自动提交
+  "git.untrackedChanges": "separate", // 显示未跟踪文件
+  "scm.diffDecorationsGutterWidth": 2, // 差异装饰器宽度
+  "terminal.integrated.cursorBlinking": true, // 光标闪烁
+  "terminal.integrated.cursorStyle": "line", // 光标样式
+  "terminal.integrated.fontWeight": "300", // 终端字体粗细
+  "terminal.integrated.persistentSessionReviveProcess": "never", // 终端进程恢复
+  "terminal.integrated.tabs.enabled": true, // 启用终端标签页
+  "workbench.editor.limit.perEditorGroup": true, // 控制最大打开的编辑器的限制是否应应用于每个编辑器组或所有编辑器组。
+  "workbench.editor.limit.value": 5, // 控制打开编辑器的最大数量
+  "search.exclude": {
+    // 排除文件
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
+  "window.dialogStyle": "custom", // 弹窗样式
+  "window.nativeTabs": true, // 使用原生标签页
+  "window.title": "${rootName}", // 窗口标题
+  // "window.titleBarStyle": "custom", // 标题栏样式
+  // "emmet.showSuggestionsAsSnippets": true, // 显示建议作为代码片段
+  // "emmet.triggerExpansionOnTab": false,
+  //------------------------------插件设置--------------------------------------//
+  "fittencode.languagePreference.displayPreference": "zh-cn",
+  "fittencode.languagePreference.commentPreference": "zh-cn"
+}
