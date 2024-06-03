@@ -18,6 +18,7 @@
 
 ## 设置
 `.settings.json`
+注意：/Users/einson/Pictures/vscbg/Noisefigure.png 换成自己的文件路径
 ```json
   "apc.stylesheet": {
     "body": {
